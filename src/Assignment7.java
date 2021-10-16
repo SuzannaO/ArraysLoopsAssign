@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
 public class Assignment7 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        System.out.println("Please Enter a number : ");
+        System.out.println("Enter a number : ");
         int number = new Scanner(System.in).nextInt();
 
         if (isPalindrome(number)) {
-            System.out.println("Number : " + number + " is a palindrome");
+            System.out.println("Number: " + number + " is a palindrome");
         } else {
-            System.out.println("Number : " + number + " is not a palindrome");
+            System.out.println("Number: " + number + " is not a palindrome");
         }
     }
 
     public static boolean isPalindrome(int number) {
-        int palindrome = number; // copied number into variable
+        int palindrome = number;
         int reverse = 0;
 
         while (palindrome != 0) {
