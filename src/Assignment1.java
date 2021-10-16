@@ -43,5 +43,5 @@
             while (i < arrayNumbers.length);
         }
     }
-//for this assignment for or for each loop can be used, no need in while or do while loops
+//for this assignment for each loop is better to use
 
